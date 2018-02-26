@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "bundit",
+    "password": "bundit1234",
+    "database": "bundit",
+    "host": "192.168.44.158",
+    "dialect": "mysql"
+  },
+  "test": {
+    "username": "bundit",
+    "password": "bundit1234",
+    "database": "bundit",
+    "host": "192.168.44.158",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "bundit",
+    "password": "bundit1234",
+    "database": "bundit",
+    "host": "192.168.44.158",
+    "dialect": "mysql"
+  }
+}
