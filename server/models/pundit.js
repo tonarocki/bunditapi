@@ -175,12 +175,16 @@ module.exports = (sequelize, DataTypes) => {
     PART_DATE: {
       type: DataTypes.STRING
     },
-  }, {});
+  }, {freezeTableName: true});
   pundit.associate = function(models) {
     // associations can be defined here
   };
   pundit.removeAttribute('id');
   pundit.removeAttribute('createdAt');
   pundit.removeAttribute('updatedAt');
+  
+
+  // define the table's name
+
   return pundit;
 };

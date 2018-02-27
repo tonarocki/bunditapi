@@ -1,23 +1,23 @@
 {
   "development": {
-    "username": "bundit",
-    "password": "bundit1234",
-    "database": "bundit",
-    "host": "192.168.44.158",
+    "username": "root",
+    "password": "iuIXPKHH28",
+    "database": "pundit",
+    "host": "172.16.1.247",
     "dialect": "mysql"
   },
   "test": {
-    "username": "bundit",
-    "password": "bundit1234",
-    "database": "bundit",
-    "host": "192.168.44.158",
+    "username": "root",
+    "password": "iuIXPKHH28",
+    "database": "pundit",
+    "host": "172.16.1.247",
     "dialect": "mysql"
   },
   "production": {
-    "username": "bundit",
-    "password": "bundit1234",
-    "database": "bundit",
-    "host": "192.168.44.158",
+    "username": "root",
+    "password": "iuIXPKHH28",
+    "database": "pundit",
+    "host": "172.16.1.247",
     "dialect": "mysql"
   }
 }
